@@ -1,0 +1,50 @@
+{
+  "version": "0.33.0",
+  "artifacts": {
+    "HelloCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://184764633411/us-east-1",
+      "properties": {
+        "templateFile": "HelloCdkStack.template.json"
+      },
+      "metadata": {
+        "/HelloCdkStack/MyFirstBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstBucketB8884501",
+            "trace": [
+              "new Bucket (/private/var/folders/8s/bhy7ryhs02b9tbbmh20kn5tc0000gn/T/jsii-kernel-Hv7zQW/node_modules/@aws-cdk/aws-s3/lib/bucket.js:272:26)",
+              "obj._wrapSandboxCode (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6661:49)",
+              "Kernel._wrapSandboxCode (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7126:20)",
+              "Kernel._create (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6661:26)",
+              "Kernel.create (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6414:21)",
+              "KernelHost.processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6186:28)",
+              "KernelHost.run (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:14)",
+              "processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:45)",
+              "KernelHost.processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6228:16)",
+              "KernelHost.run (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:14)",
+              "processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:45)",
+              "KernelHost.processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6228:16)",
+              "KernelHost.run (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:14)",
+              "processRequest (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6132:45)",
+              "promise.then.val (/Users/clarence/workspace/aws-cdk-learn/hello-cdk/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6213:21)",
+              "<anonymous>"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "0.33.0",
+      "@aws-cdk/cdk": "0.33.0",
+      "@aws-cdk/region-info": "0.33.0",
+      "@aws-cdk/aws-iam": "0.33.0",
+      "@aws-cdk/aws-events": "0.33.0",
+      "@aws-cdk/aws-kms": "0.33.0",
+      "@aws-cdk/aws-s3": "0.33.0",
+      "jsii-runtime": "Python/3.7.3"
+    }
+  }
+}
